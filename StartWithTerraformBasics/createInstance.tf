@@ -5,6 +5,6 @@ resource "aws_instance" "MyFirstInstnace" {
   instance_type = "t2.micro"
 }
 
-tags{
+tags = {
     Name = "two demo instances"
 }
